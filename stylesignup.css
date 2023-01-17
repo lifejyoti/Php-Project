@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 119%;
+  background: #e3e3e9;
+}
+
+.home {
+  width: 50%;
+  height: 80px;
+  margin: 50px auto 0px;
+  color: white;
+  background: #6db5b8;
+  text-align: center;
+  border: 2px solid #cbd5e1;
+  border-bottom: none;
+  border-radius: 12px 12px 0px 0px;
+  padding: 5px;
+}
+form, .content {
+  width: 42%;
+  margin: 1px auto;
+  padding: 22px;
+  border: 2px solid #c7d4e5;
+  background: white;
+  border-radius: 0px 0px 12px 12px;
+  margin-bottom: 30px;
+font-size: 16px;
+}
+.input1 {
+  margin: 10px 0px 12px 0px;
+}
+.input1 label {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.input1 input {
+  height: 50px;
+  width: 100%;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 6px solid rgb(84, 82, 82);
+}
+.button {
+  padding: 11px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background: #85c7c9;
+  border: dotted;
+  border-radius: 6px;
+}
+.error {
+  width: 90%;
+  height: auto;
+  margin: 0px auto; 
+  padding: 5px;
+  border: 2px solid #2a1bd4; 
+  color: #c75250; 
+  background: #f3e5e5; 
+  border-radius: 6px; 
+  text-align: right;
+}
+.success {
+  color: #4e8d4f; 
+  background: #dff0d8; 
+  border: 2px solid #0f2d10;
+  margin-bottom: 21px;}

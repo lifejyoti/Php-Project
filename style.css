@@ -1,0 +1,164 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar-brand img {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 0px;
+  bottom: 15px;
+  background: #555;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-inverse {
+  background-color: #d5d6dc;
+  border-color: #d4dcde;
+}
+
+.nav.navbar-nav li a {
+  color: #1457f3;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.item.active img {
+  width: 1270px;
+  height: 280px;
+  position: relative;
+  left: 0px;
+  background: #555;
+}
+
+.item img {
+  width: 1270px;
+  height: 280px;
+  position: relative;
+  left: 0px;
+  background: #555;
+}
+
+/* Add a gray background color and some padding to the footer */
+
+.footer {
+  padding: 13px 0;
+  background-color: #d5d6dc;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #2d6b56;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: #1457f3;
+  /*border: 1px solid #ccc;*/
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 1.25;
+  padding-bottom: 52px;
+  padding-right: 45px;
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: #1457f3;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1.75;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #1457f3;
+  font-weight: bold;
+}
+
+.footer .copyright .acopyright {
+  font-size: 13px;
+  color: #1457f3;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/* Sign up page css properties*/
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #05499c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form-div {
+  padding: 20px;
+  padding-right: 500px;
+  padding-left: 500px;
+}
+/* End */
